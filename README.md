@@ -24,7 +24,7 @@ You will also see any lint errors in the console.
 - On click of MY Cart in Header a dropdpown option will bring the user to Cart page
 - In cart Page user can see all the prodcuts added in ProductList page or View Details Page along with thier Quantity , Price and total price of the cart
 
-#Pending Items
+## Pending Items
 
 - Make Navigation work so that user can navigate from one page to other by Navbar
 - Add Cart popup in My Cart Navbar
