@@ -55,6 +55,12 @@ const StyledDiv = styled.div`
   background: #eeeeee;
 `;
 
+const StyledCol = styled(Col)`
+  padding: 5px;
+  padding-right: 5%;
+  font-weight: ${props => (props.bold ? "bold" : "normal")};
+`;
+
 const StyledRow = styled(Row)`
   justify-content: center;
   border-top: 1px solid #eeeeee;
@@ -69,7 +75,6 @@ const StyledTotalContainer = styled.div`
   margin-bottom: 2%;
   padding-top: 2%;
   text-align: right;
-  padding-right: 25%;
 `;
 
 export class Cart extends Component {
@@ -143,9 +148,18 @@ export class Cart extends Component {
                 </StyledRow>
               ))}
             <StyledTotalContainer>
-              <Title>CART OVERVIEW</Title>
-              <Title>SUBTOTAL {totalCartAmount}</Title>
-              <Title>TOTAL {totalCartAmount}</Title>
+              <Row>
+                <StyledCol md={6} alignRight>
+                  CART OVERVIEW
+                </StyledCol>
+                <StyledCol md={6} />
+                <StyledCol md={6}>SUBTOTAL</StyledCol>
+                <StyledCol md={6}>{totalCartAmount}</StyledCol>
+                <StyledCol md={6}>TOTAL</StyledCol>
+                <StyledCol bold md={6}>
+                  {totalCartAmount}
+                </StyledCol>
+              </Row>
             </StyledTotalContainer>
             <div style={{ textAlign: "right" }}>
               <StyledCheckout>Checkout({totalCartAmount})</StyledCheckout>
