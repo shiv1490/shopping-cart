@@ -2,7 +2,6 @@ import React, { Component, Fragment } from "react";
 import { connect } from "react-redux";
 import styled from "styled-components";
 import { Container, Row, Col, Breadcrumb, Card } from "react-bootstrap";
-import Header from "../../components/header/header";
 import { addToCart } from "../../store/actions/cartActions";
 import { getFormattedCurrency } from "../../utilities/utilities";
 import imageMappings from "../../ImageMapping";
@@ -65,7 +64,6 @@ export class ProductDetails extends Component {
 
     return (
       <Fragment>
-        <Header />
         <Container>
           <Breadcrumb>
             <Breadcrumb.Item>Home</Breadcrumb.Item>

@@ -12,6 +12,13 @@ export class Header extends Component {
   };
 
   render() {
+    const cartCount =
+      this.props.cartDetails &&
+      this.props.cartDetails.reduce((sum, p) => {
+        sum += p.quantity;
+        return sum;
+      }, 0);
+
     return (
       <Navbar bg="white" expand="lg">
         <Navbar.Brand href="#home">
@@ -26,7 +33,11 @@ export class Header extends Component {
             <NavDropdown title="MORE" />
           </Nav>
           <Nav>
-            <NavDropdown title="MY CART" id="basic-nav-dropdown" alignRight>
+            <NavDropdown
+              title={`MY CART ${cartCount !== 0 ? `(${cartCount})` : ""}`}
+              id="basic-nav-dropdown"
+              alignRight
+            >
               <CartPopup
                 cartDetails={this.props.cartDetails}
                 cartTotal={this.props.cartTotal}

@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from "react";
 import { connect } from "react-redux";
 import styled from "styled-components";
-import Header from "../components/header/header";
 import Product from "../components/product/product";
 import background from "../assets/images/background.jpg";
 import { initProductData } from "./../store/actions/homePageActions";
@@ -29,7 +28,6 @@ export class HomePage extends Component {
   render() {
     return (
       <Fragment>
-        <Header />
         <StyledImage src={background} alt="background" />
         <Product
           products={this.props.products}

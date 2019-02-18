@@ -2,7 +2,6 @@ import React, { Component, Fragment } from "react";
 import { connect } from "react-redux";
 import styled from "styled-components";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import Header from "../components/header/header";
 import {
   addToCart,
   addProduct,
@@ -87,7 +86,6 @@ export class Cart extends Component {
 
     return (
       <Fragment>
-        <Header />
         <StyledDiv>
           <h1 style={{ textAlign: "center", paddingTop: "4%" }}>
             Shopping Cart
