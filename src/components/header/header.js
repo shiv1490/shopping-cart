@@ -1,28 +1,62 @@
-import React from "react";
+import React, { Component } from "react";
 import Logo from "../../assets/images/logo.png";
+import { connect } from "react-redux";
 import { Navbar, NavDropdown, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { removeProduct } from "../../store/actions/cartActions";
+import CartPopup from "../cartPopup/cartPopup";
+import { withRouter } from "react-router";
 
-const header = props => (
-  <Navbar bg="white" expand="lg">
-    <Navbar.Brand href="#home">
-      <img src={Logo} alt="logo" />
-    </Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="mr-auto">
-        <Nav.Link href="#home">HOME</Nav.Link>
-        <NavDropdown title="SHOP" id="basic-nav-dropdown" />
-        <NavDropdown title="JOURNAL" id="basic-nav-dropdown" />
-        <NavDropdown title="MORE" id="basic-nav-dropdown" />
-      </Nav>
-      <Nav>
-        <NavDropdown title="MY CART" id="basic-nav-dropdown">
-          <Link to="/cart">Go to Cart</Link>
-        </NavDropdown>
-      </Nav>
-    </Navbar.Collapse>
-  </Navbar>
+export class Header extends Component {
+  goToCart = () => {
+    this.props.history.push("/cart");
+  };
+
+  render() {
+    return (
+      <Navbar bg="white" expand="lg">
+        <Navbar.Brand href="#home">
+          <img src={Logo} alt="logo" />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="#home">HOME</Nav.Link>
+            <NavDropdown title="SHOP" />
+            <NavDropdown title="JOURNAL" id="basic-nav-dropdown" />
+            <NavDropdown title="MORE" />
+          </Nav>
+          <Nav>
+            <NavDropdown title="MY CART" id="basic-nav-dropdown" alignRight>
+              <CartPopup
+                cartDetails={this.props.cartDetails}
+                cartTotal={this.props.cartTotal}
+                removeProduct={this.props.onRemoveProduct}
+                viewCart={() => this.goToCart()}
+              />
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    );
+  }
+}
+
+const mapStateToProps = state => {
+  return {
+    cartDetails: state.cartData.cart,
+    cartTotal: state.cartData.cartTotal
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    onRemoveProduct: product => dispatch(removeProduct(product))
+  };
+};
+
+export default withRouter(
+  connect(
+    mapStateToProps,
+    mapDispatchToProps
+  )(Header)
 );
-
-export default header;

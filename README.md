@@ -23,11 +23,11 @@ You will also see any lint errors in the console.
 - In View Details page user can specify number of products and can add the same into the cart
 - On click of MY Cart in Header a dropdpown option will bring the user to Cart page
 - In cart Page user can see all the prodcuts added in ProductList page or View Details Page along with thier Quantity , Price and total price of the cart
+- User can perform Add, subtract and remove operations in Cart Page and price and totals will update accordingly
+- User can see cart popuop by click on MY CART ,see products in cart and can remove them
 
 ## Pending Items
 
 - Make Navigation work so that user can navigate from one page to other by Navbar
-- Add Cart popup in My Cart Navbar
-- Implement add, subtract and remove operations in Cart Page
 - Cosmetic changes in UI
 - Test cases

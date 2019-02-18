@@ -1,23 +1,23 @@
 import * as actionTypes from "./actionTypes";
 
-export const addProduct = product => {
+export const addProduct = (product, quantity) => {
   return {
     type: actionTypes.ADD_PRODUCT,
-    selectedProduct: product
+    payload: { ...product, quantity }
   };
 };
 
 export const removeProduct = product => {
   return {
     type: actionTypes.REMOVE_PRODUCT,
-    selectedProduct: product
+    payload: product
   };
 };
 
-export const subtractProduct = product => {
+export const subtractProduct = (product, quantity) => {
   return {
     type: actionTypes.SUBTRACT_PRODUCT,
-    selectedProduct: product
+    payload: { ...product, quantity }
   };
 };
 

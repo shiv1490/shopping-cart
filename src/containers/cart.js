@@ -3,7 +3,12 @@ import { connect } from "react-redux";
 import styled from "styled-components";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Header from "../components/header/header";
-import { addToCart } from "../store/actions/cartActions";
+import {
+  addToCart,
+  addProduct,
+  removeProduct,
+  subtractProduct
+} from "../store/actions/cartActions";
 import { getFormattedCurrency } from "../utilities/utilities";
 import imageMappings from "../ImageMapping";
 
@@ -69,8 +74,10 @@ const StyledTotalContainer = styled.div`
 `;
 
 export class Cart extends Component {
-  state = {
-    quantity: 1
+  subtarctProductFromCart = (product, quantity) => {
+    if (product.quantity > 1) {
+      this.props.onSubtractProduct(product, quantity);
+    }
   };
 
   render() {
@@ -114,14 +121,26 @@ export class Cart extends Component {
                   </Col>
                   <Col md={1}>
                     <span />
-                    <StyledButton>+</StyledButton>
-                    <StyledButton>-</StyledButton>
+                    <StyledButton
+                      onClick={() => this.props.onAddProduct(product, 1)}
+                    >
+                      +
+                    </StyledButton>
+                    <StyledButton
+                      onClick={() => this.subtarctProductFromCart(product, 1)}
+                    >
+                      -
+                    </StyledButton>
                   </Col>
                   <Col md={2}>
                     {getFormattedCurrency(product.price * product.quantity)}
                   </Col>
                   <Col md={2}>
-                    <StyledButton>X</StyledButton>
+                    <StyledButton
+                      onClick={() => this.props.onRemoveProduct(product)}
+                    >
+                      X
+                    </StyledButton>
                   </Col>
                 </StyledRow>
               ))}
@@ -149,7 +168,12 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    onAddToCart: (product, quantity) => dispatch(addToCart(product, quantity))
+    onAddToCart: (product, quantity) => dispatch(addToCart(product, quantity)),
+    onAddProduct: (product, quantity) =>
+      dispatch(addProduct(product, quantity)),
+    onSubtractProduct: (product, quantity) =>
+      dispatch(subtractProduct(product, quantity)),
+    onRemoveProduct: product => dispatch(removeProduct(product))
   };
 };
 
