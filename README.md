@@ -25,9 +25,8 @@ You will also see any lint errors in the console.
 - In cart Page user can see all the prodcuts added in ProductList page or View Details Page along with thier Quantity , Price and total price of the cart
 - User can perform Add, subtract and remove operations in Cart Page and price and totals will update accordingly
 - User can see cart popuop by click on MY CART ,see products in cart and can remove them
+- User can go to Homepage anytime by click on Home Button on Navbar and to Cart by clicking on View Cart button in cart popup
 
 ## Pending Items
 
-- Make Navigation work so that user can navigate from one page to other by Navbar
-- Cosmetic changes in UI
 - Test cases

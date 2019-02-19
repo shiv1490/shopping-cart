@@ -11,6 +11,10 @@ export class Header extends Component {
     this.props.history.push("/cart");
   };
 
+  goToHomePage = () => {
+    this.props.history.push("/");
+  };
+
   render() {
     const cartCount =
       this.props.cartDetails &&
@@ -21,13 +25,13 @@ export class Header extends Component {
 
     return (
       <Navbar bg="white" expand="lg">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand>
           <img src={Logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#home">HOME</Nav.Link>
+            <Nav.Link onClick={this.goToHomePage}>HOME</Nav.Link>
             <NavDropdown title="SHOP" />
             <NavDropdown title="JOURNAL" id="basic-nav-dropdown" />
             <NavDropdown title="MORE" />

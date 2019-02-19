@@ -149,14 +149,12 @@ export class Cart extends Component {
               ))}
             <StyledTotalContainer>
               <Row>
-                <StyledCol md={6} alignRight>
-                  CART OVERVIEW
-                </StyledCol>
+                <StyledCol md={6}>CART OVERVIEW</StyledCol>
                 <StyledCol md={6} />
                 <StyledCol md={6}>SUBTOTAL</StyledCol>
                 <StyledCol md={6}>{totalCartAmount}</StyledCol>
                 <StyledCol md={6}>TOTAL</StyledCol>
-                <StyledCol bold md={6}>
+                <StyledCol bold="true" md={6}>
                   {totalCartAmount}
                 </StyledCol>
               </Row>
