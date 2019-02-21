@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartPopup component should rener cpomponent 1`] = `
+<Fragment>
+  <ForwardRef(Bootstrap(Row))
+    style={
+      Object {
+        "padding": "4%",
+      }
+    }
+  >
+    <ForwardRef(Bootstrap(Col))
+      md={6}
+    >
+      TOTAL
+    </ForwardRef(Bootstrap(Col))>
+    <ForwardRef(Bootstrap(Col))
+      md={6}
+      style={
+        Object {
+          "textAlign": "right",
+        }
+      }
+    >
+      $NaN
+    </ForwardRef(Bootstrap(Col))>
+    <ForwardRef(Bootstrap(Col))
+      md={6}
+    >
+      <styled.button
+        type="view"
+      >
+        VIEW CART
+      </styled.button>
+    </ForwardRef(Bootstrap(Col))>
+    <ForwardRef(Bootstrap(Col))
+      md={6}
+    >
+      <styled.button
+        type="checkout"
+      >
+        CHECKOUT
+      </styled.button>
+    </ForwardRef(Bootstrap(Col))>
+  </ForwardRef(Bootstrap(Row))>
+</Fragment>
+`;
