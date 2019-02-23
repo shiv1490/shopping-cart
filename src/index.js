@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import { Provider } from "react-redux";
-import { BrowserRouter } from "react-router-dom";
 import { createStore, applyMiddleware, combineReducers } from "redux";
 import homePageReducer from "./store/reducers/homePageReducer";
 import cartReducer from "./store/reducers/cartReducer";
@@ -21,9 +20,7 @@ const store = createStore(rootReducer, applyMiddleware(thunk));
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <App />
   </Provider>,
   document.getElementById("root")
 );

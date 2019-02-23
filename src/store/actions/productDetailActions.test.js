@@ -13,12 +13,17 @@ const mockProduct = {
 describe("ProductDetail Actions Action", () => {
   it("addToCart", () => {
     const expectedAction = {
-      type: actionTypes.ADD_TO_CART,
-      paylaod: mockProduct,
-      quantity: 1
+      payload: {
+        brand: "Kiriko",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
+        image: "blue.jpg",
+        price: 40,
+        title: "Blue Stripe Stoneware Plate"
+      },
+      quantity: 1,
+      type: "ADD_TO_CART"
     };
-
-    console.log(productDetailActions.addToCart(mockProduct, 1));
     expect(productDetailActions.addToCart(mockProduct, 1)).toEqual(
       expectedAction
     );
