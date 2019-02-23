@@ -1,13 +1,13 @@
 import React from "react";
 import { configure, shallow } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
-import CartPopup from "./cartPopup";
+import Product from "./product";
 
 configure({ adapter: new Adapter() });
 
 describe("CartPopup component", () => {
   it("should rener component", () => {
-    const cartDetails = [
+    const products = [
       {
         title: "Blue Stripe Stoneware Plate",
         brand: "Kiriko",
@@ -17,7 +17,7 @@ describe("CartPopup component", () => {
         image: "blue.jpg"
       }
     ];
-    const component = shallow(<CartPopup cartDetails={cartDetails} />);
+    const component = shallow(<Product products={products} />);
 
     expect(component).toMatchSnapshot();
   });

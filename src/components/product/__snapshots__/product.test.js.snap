@@ -1,0 +1,1300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartPopup component should rener component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Product
+    products={
+      Array [
+        Object {
+          "brand": "Kiriko",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
+          "image": "blue.jpg",
+          "price": 40,
+          "title": "Blue Stripe Stoneware Plate",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <ForwardRef(Bootstrap(Row))>
+        <ForwardRef(Bootstrap(Col))
+          md={4}
+        >
+          <ForwardRef>
+            <ForwardRef
+              src="blue.jpg"
+              variant="top"
+            />
+            <ForwardRef(Bootstrap(CardBody))>
+              <ForwardRef(Bootstrap(CardTitle))>
+                Kiriko
+              </ForwardRef(Bootstrap(CardTitle))>
+              <ForwardRef(Bootstrap(CardText))>
+                Blue Stripe Stoneware Plate
+              </ForwardRef(Bootstrap(CardText))>
+              <ForwardRef(Bootstrap(CardText))>
+                $40.00
+              </ForwardRef(Bootstrap(CardText))>
+              <ForwardRef>
+                <ForwardRef
+                  onClick={[Function]}
+                  type="view"
+                >
+                  VIEW DETAILS
+                </ForwardRef>
+                <ForwardRef
+                  onClick={[Function]}
+                  type="add"
+                >
+                  ADD TO CART
+                </ForwardRef>
+              </ForwardRef>
+            </ForwardRef(Bootstrap(CardBody))>
+          </ForwardRef>
+        </ForwardRef(Bootstrap(Col))>
+      </ForwardRef(Bootstrap(Row))>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef(Bootstrap(Col))
+            md={4}
+          >
+            <ForwardRef>
+              <ForwardRef
+                src="blue.jpg"
+                variant="top"
+              />
+              <ForwardRef(Bootstrap(CardBody))>
+                <ForwardRef(Bootstrap(CardTitle))>
+                  Kiriko
+                </ForwardRef(Bootstrap(CardTitle))>
+                <ForwardRef(Bootstrap(CardText))>
+                  Blue Stripe Stoneware Plate
+                </ForwardRef(Bootstrap(CardText))>
+                <ForwardRef(Bootstrap(CardText))>
+                  $40.00
+                </ForwardRef(Bootstrap(CardText))>
+                <ForwardRef>
+                  <ForwardRef
+                    onClick={[Function]}
+                    type="view"
+                  >
+                    VIEW DETAILS
+                  </ForwardRef>
+                  <ForwardRef
+                    onClick={[Function]}
+                    type="add"
+                  >
+                    ADD TO CART
+                  </ForwardRef>
+                </ForwardRef>
+              </ForwardRef(Bootstrap(CardBody))>
+            </ForwardRef>
+          </ForwardRef(Bootstrap(Col))>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "Blue Stripe Stoneware Plate",
+          "nodeType": "function",
+          "props": Object {
+            "children": <ForwardRef>
+              <ForwardRef
+                src="blue.jpg"
+                variant="top"
+              />
+              <ForwardRef(Bootstrap(CardBody))>
+                <ForwardRef(Bootstrap(CardTitle))>
+                  Kiriko
+                </ForwardRef(Bootstrap(CardTitle))>
+                <ForwardRef(Bootstrap(CardText))>
+                  Blue Stripe Stoneware Plate
+                </ForwardRef(Bootstrap(CardText))>
+                <ForwardRef(Bootstrap(CardText))>
+                  $40.00
+                </ForwardRef(Bootstrap(CardText))>
+                <ForwardRef>
+                  <ForwardRef
+                    onClick={[Function]}
+                    type="view"
+                  >
+                    VIEW DETAILS
+                  </ForwardRef>
+                  <ForwardRef
+                    onClick={[Function]}
+                    type="add"
+                  >
+                    ADD TO CART
+                  </ForwardRef>
+                </ForwardRef>
+              </ForwardRef(Bootstrap(CardBody))>
+            </ForwardRef>,
+            "md": 4,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <ForwardRef
+                  src="blue.jpg"
+                  variant="top"
+                />,
+                <ForwardRef(Bootstrap(CardBody))>
+                  <ForwardRef(Bootstrap(CardTitle))>
+                    Kiriko
+                  </ForwardRef(Bootstrap(CardTitle))>
+                  <ForwardRef(Bootstrap(CardText))>
+                    Blue Stripe Stoneware Plate
+                  </ForwardRef(Bootstrap(CardText))>
+                  <ForwardRef(Bootstrap(CardText))>
+                    $40.00
+                  </ForwardRef(Bootstrap(CardText))>
+                  <ForwardRef>
+                    <ForwardRef
+                      onClick={[Function]}
+                      type="view"
+                    >
+                      VIEW DETAILS
+                    </ForwardRef>
+                    <ForwardRef
+                      onClick={[Function]}
+                      type="add"
+                    >
+                      ADD TO CART
+                    </ForwardRef>
+                  </ForwardRef>
+                </ForwardRef(Bootstrap(CardBody))>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "src": "blue.jpg",
+                  "variant": "top",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-htpNat",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+  height: 40vh;
+  ",
+                      ".sc-bwzfXH",
+                      ":hover & {
+    opacity: 0.3;
+  }
+",
+                    ],
+                  },
+                  "defaultProps": undefined,
+                  "displayName": "Styled(Component)",
+                  "foldedComponentIds": Array [],
+                  "propTypes": undefined,
+                  "render": [Function],
+                  "styledComponentId": "sc-htpNat",
+                  "target": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": undefined,
+                    "propTypes": undefined,
+                    "render": [Function],
+                  },
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(Bootstrap(CardTitle))>
+                      Kiriko
+                    </ForwardRef(Bootstrap(CardTitle))>,
+                    <ForwardRef(Bootstrap(CardText))>
+                      Blue Stripe Stoneware Plate
+                    </ForwardRef(Bootstrap(CardText))>,
+                    <ForwardRef(Bootstrap(CardText))>
+                      $40.00
+                    </ForwardRef(Bootstrap(CardText))>,
+                    <ForwardRef>
+                      <ForwardRef
+                        onClick={[Function]}
+                        type="view"
+                      >
+                        VIEW DETAILS
+                      </ForwardRef>
+                      <ForwardRef
+                        onClick={[Function]}
+                        type="add"
+                      >
+                        ADD TO CART
+                      </ForwardRef>
+                    </ForwardRef>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "Kiriko",
+                    },
+                    "ref": null,
+                    "rendered": "Kiriko",
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "defaultProps": undefined,
+                      "propTypes": undefined,
+                      "render": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "Blue Stripe Stoneware Plate",
+                    },
+                    "ref": null,
+                    "rendered": "Blue Stripe Stoneware Plate",
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "defaultProps": undefined,
+                      "propTypes": undefined,
+                      "render": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "$40.00",
+                    },
+                    "ref": null,
+                    "rendered": "$40.00",
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "defaultProps": undefined,
+                      "propTypes": undefined,
+                      "render": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": Array [
+                        <ForwardRef
+                          onClick={[Function]}
+                          type="view"
+                        >
+                          VIEW DETAILS
+                        </ForwardRef>,
+                        <ForwardRef
+                          onClick={[Function]}
+                          type="add"
+                        >
+                          ADD TO CART
+                        </ForwardRef>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "children": "VIEW DETAILS",
+                          "onClick": [Function],
+                          "type": "view",
+                        },
+                        "ref": null,
+                        "rendered": "VIEW DETAILS",
+                        "type": Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-ifAKCX",
+                            "isStatic": false,
+                            "rules": Array [
+                              "
+  color: white;
+  background-color: #",
+                              [Function],
+                              ";
+  padding: 10px;
+  font-weight: 500;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+",
+                            ],
+                          },
+                          "displayName": "styled.button",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "sc-ifAKCX",
+                          "target": "button",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        },
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "children": "ADD TO CART",
+                          "onClick": [Function],
+                          "type": "add",
+                        },
+                        "ref": null,
+                        "rendered": "ADD TO CART",
+                        "type": Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-ifAKCX",
+                            "isStatic": false,
+                            "rules": Array [
+                              "
+  color: white;
+  background-color: #",
+                              [Function],
+                              ";
+  padding: 10px;
+  font-weight: 500;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+",
+                            ],
+                          },
+                          "displayName": "styled.button",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "sc-ifAKCX",
+                          "target": "button",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        },
+                      },
+                    ],
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bxivhb",
+                        "isStatic": true,
+                        "rules": Array [
+                          "
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  ",
+                          ".sc-bwzfXH",
+                          ":hover & {
+    opacity: 0.8;
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bxivhb",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                ],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "Body": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+              "Footer": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+              "Header": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+              "Img": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+              "ImgOverlay": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+              "Link": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+              "Subtitle": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+              "Text": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+              "Title": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-bwzfXH",
+                "isStatic": true,
+                "rules": Array [
+                  "
+  margin-bottom: 30px;
+  width: 18rem;
+  text-align: center;
+  border: none;
+",
+                ],
+              },
+              "defaultProps": undefined,
+              "displayName": "Styled(Component)",
+              "foldedComponentIds": Array [],
+              "propTypes": undefined,
+              "render": [Function],
+              "styledComponentId": "sc-bwzfXH",
+              "target": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "Body": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "Footer": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "Header": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "Img": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "ImgOverlay": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "Link": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "Subtitle": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "Text": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "Title": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "propTypes": undefined,
+            "render": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "propTypes": undefined,
+        "render": [Function],
+      },
+    },
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": true,
+        "rules": Array [
+          "
+  margin-top: 5%;
+",
+        ],
+      },
+      "defaultProps": undefined,
+      "displayName": "Styled(Component)",
+      "foldedComponentIds": Array [],
+      "propTypes": undefined,
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "propTypes": undefined,
+        "render": [Function],
+      },
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <ForwardRef(Bootstrap(Row))>
+          <ForwardRef(Bootstrap(Col))
+            md={4}
+          >
+            <ForwardRef>
+              <ForwardRef
+                src="blue.jpg"
+                variant="top"
+              />
+              <ForwardRef(Bootstrap(CardBody))>
+                <ForwardRef(Bootstrap(CardTitle))>
+                  Kiriko
+                </ForwardRef(Bootstrap(CardTitle))>
+                <ForwardRef(Bootstrap(CardText))>
+                  Blue Stripe Stoneware Plate
+                </ForwardRef(Bootstrap(CardText))>
+                <ForwardRef(Bootstrap(CardText))>
+                  $40.00
+                </ForwardRef(Bootstrap(CardText))>
+                <ForwardRef>
+                  <ForwardRef
+                    onClick={[Function]}
+                    type="view"
+                  >
+                    VIEW DETAILS
+                  </ForwardRef>
+                  <ForwardRef
+                    onClick={[Function]}
+                    type="add"
+                  >
+                    ADD TO CART
+                  </ForwardRef>
+                </ForwardRef>
+              </ForwardRef(Bootstrap(CardBody))>
+            </ForwardRef>
+          </ForwardRef(Bootstrap(Col))>
+        </ForwardRef(Bootstrap(Row))>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ForwardRef(Bootstrap(Col))
+              md={4}
+            >
+              <ForwardRef>
+                <ForwardRef
+                  src="blue.jpg"
+                  variant="top"
+                />
+                <ForwardRef(Bootstrap(CardBody))>
+                  <ForwardRef(Bootstrap(CardTitle))>
+                    Kiriko
+                  </ForwardRef(Bootstrap(CardTitle))>
+                  <ForwardRef(Bootstrap(CardText))>
+                    Blue Stripe Stoneware Plate
+                  </ForwardRef(Bootstrap(CardText))>
+                  <ForwardRef(Bootstrap(CardText))>
+                    $40.00
+                  </ForwardRef(Bootstrap(CardText))>
+                  <ForwardRef>
+                    <ForwardRef
+                      onClick={[Function]}
+                      type="view"
+                    >
+                      VIEW DETAILS
+                    </ForwardRef>
+                    <ForwardRef
+                      onClick={[Function]}
+                      type="add"
+                    >
+                      ADD TO CART
+                    </ForwardRef>
+                  </ForwardRef>
+                </ForwardRef(Bootstrap(CardBody))>
+              </ForwardRef>
+            </ForwardRef(Bootstrap(Col))>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Blue Stripe Stoneware Plate",
+            "nodeType": "function",
+            "props": Object {
+              "children": <ForwardRef>
+                <ForwardRef
+                  src="blue.jpg"
+                  variant="top"
+                />
+                <ForwardRef(Bootstrap(CardBody))>
+                  <ForwardRef(Bootstrap(CardTitle))>
+                    Kiriko
+                  </ForwardRef(Bootstrap(CardTitle))>
+                  <ForwardRef(Bootstrap(CardText))>
+                    Blue Stripe Stoneware Plate
+                  </ForwardRef(Bootstrap(CardText))>
+                  <ForwardRef(Bootstrap(CardText))>
+                    $40.00
+                  </ForwardRef(Bootstrap(CardText))>
+                  <ForwardRef>
+                    <ForwardRef
+                      onClick={[Function]}
+                      type="view"
+                    >
+                      VIEW DETAILS
+                    </ForwardRef>
+                    <ForwardRef
+                      onClick={[Function]}
+                      type="add"
+                    >
+                      ADD TO CART
+                    </ForwardRef>
+                  </ForwardRef>
+                </ForwardRef(Bootstrap(CardBody))>
+              </ForwardRef>,
+              "md": 4,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <ForwardRef
+                    src="blue.jpg"
+                    variant="top"
+                  />,
+                  <ForwardRef(Bootstrap(CardBody))>
+                    <ForwardRef(Bootstrap(CardTitle))>
+                      Kiriko
+                    </ForwardRef(Bootstrap(CardTitle))>
+                    <ForwardRef(Bootstrap(CardText))>
+                      Blue Stripe Stoneware Plate
+                    </ForwardRef(Bootstrap(CardText))>
+                    <ForwardRef(Bootstrap(CardText))>
+                      $40.00
+                    </ForwardRef(Bootstrap(CardText))>
+                    <ForwardRef>
+                      <ForwardRef
+                        onClick={[Function]}
+                        type="view"
+                      >
+                        VIEW DETAILS
+                      </ForwardRef>
+                      <ForwardRef
+                        onClick={[Function]}
+                        type="add"
+                      >
+                        ADD TO CART
+                      </ForwardRef>
+                    </ForwardRef>
+                  </ForwardRef(Bootstrap(CardBody))>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "src": "blue.jpg",
+                    "variant": "top",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-htpNat",
+                      "isStatic": true,
+                      "rules": Array [
+                        "
+  height: 40vh;
+  ",
+                        ".sc-bwzfXH",
+                        ":hover & {
+    opacity: 0.3;
+  }
+",
+                      ],
+                    },
+                    "defaultProps": undefined,
+                    "displayName": "Styled(Component)",
+                    "foldedComponentIds": Array [],
+                    "propTypes": undefined,
+                    "render": [Function],
+                    "styledComponentId": "sc-htpNat",
+                    "target": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "defaultProps": undefined,
+                      "propTypes": undefined,
+                      "render": [Function],
+                    },
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      <ForwardRef(Bootstrap(CardTitle))>
+                        Kiriko
+                      </ForwardRef(Bootstrap(CardTitle))>,
+                      <ForwardRef(Bootstrap(CardText))>
+                        Blue Stripe Stoneware Plate
+                      </ForwardRef(Bootstrap(CardText))>,
+                      <ForwardRef(Bootstrap(CardText))>
+                        $40.00
+                      </ForwardRef(Bootstrap(CardText))>,
+                      <ForwardRef>
+                        <ForwardRef
+                          onClick={[Function]}
+                          type="view"
+                        >
+                          VIEW DETAILS
+                        </ForwardRef>
+                        <ForwardRef
+                          onClick={[Function]}
+                          type="add"
+                        >
+                          ADD TO CART
+                        </ForwardRef>
+                      </ForwardRef>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "Kiriko",
+                      },
+                      "ref": null,
+                      "rendered": "Kiriko",
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "defaultProps": undefined,
+                        "propTypes": undefined,
+                        "render": [Function],
+                      },
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "Blue Stripe Stoneware Plate",
+                      },
+                      "ref": null,
+                      "rendered": "Blue Stripe Stoneware Plate",
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "defaultProps": undefined,
+                        "propTypes": undefined,
+                        "render": [Function],
+                      },
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "$40.00",
+                      },
+                      "ref": null,
+                      "rendered": "$40.00",
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "defaultProps": undefined,
+                        "propTypes": undefined,
+                        "render": [Function],
+                      },
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": Array [
+                          <ForwardRef
+                            onClick={[Function]}
+                            type="view"
+                          >
+                            VIEW DETAILS
+                          </ForwardRef>,
+                          <ForwardRef
+                            onClick={[Function]}
+                            type="add"
+                          >
+                            ADD TO CART
+                          </ForwardRef>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "children": "VIEW DETAILS",
+                            "onClick": [Function],
+                            "type": "view",
+                          },
+                          "ref": null,
+                          "rendered": "VIEW DETAILS",
+                          "type": Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-ifAKCX",
+                              "isStatic": false,
+                              "rules": Array [
+                                "
+  color: white;
+  background-color: #",
+                                [Function],
+                                ";
+  padding: 10px;
+  font-weight: 500;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+",
+                              ],
+                            },
+                            "displayName": "styled.button",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-ifAKCX",
+                            "target": "button",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          },
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "children": "ADD TO CART",
+                            "onClick": [Function],
+                            "type": "add",
+                          },
+                          "ref": null,
+                          "rendered": "ADD TO CART",
+                          "type": Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-ifAKCX",
+                              "isStatic": false,
+                              "rules": Array [
+                                "
+  color: white;
+  background-color: #",
+                                [Function],
+                                ";
+  padding: 10px;
+  font-weight: 500;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+",
+                              ],
+                            },
+                            "displayName": "styled.button",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-ifAKCX",
+                            "target": "button",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          },
+                        },
+                      ],
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bxivhb",
+                          "isStatic": true,
+                          "rules": Array [
+                            "
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  ",
+                            ".sc-bwzfXH",
+                            ":hover & {
+    opacity: 0.8;
+  }
+",
+                          ],
+                        },
+                        "displayName": "styled.div",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bxivhb",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                  ],
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": undefined,
+                    "propTypes": undefined,
+                    "render": [Function],
+                  },
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "Body": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "Footer": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "Header": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "Img": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "ImgOverlay": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "Link": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "Subtitle": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "Text": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "Title": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+  margin-bottom: 30px;
+  width: 18rem;
+  text-align: center;
+  border: none;
+",
+                  ],
+                },
+                "defaultProps": undefined,
+                "displayName": "Styled(Component)",
+                "foldedComponentIds": Array [],
+                "propTypes": undefined,
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "Body": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": undefined,
+                    "propTypes": undefined,
+                    "render": [Function],
+                  },
+                  "Footer": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": undefined,
+                    "propTypes": undefined,
+                    "render": [Function],
+                  },
+                  "Header": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": undefined,
+                    "propTypes": undefined,
+                    "render": [Function],
+                  },
+                  "Img": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": undefined,
+                    "propTypes": undefined,
+                    "render": [Function],
+                  },
+                  "ImgOverlay": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": undefined,
+                    "propTypes": undefined,
+                    "render": [Function],
+                  },
+                  "Link": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": undefined,
+                    "propTypes": undefined,
+                    "render": [Function],
+                  },
+                  "Subtitle": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": undefined,
+                    "propTypes": undefined,
+                    "render": [Function],
+                  },
+                  "Text": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": undefined,
+                    "propTypes": undefined,
+                    "render": [Function],
+                  },
+                  "Title": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": undefined,
+                    "propTypes": undefined,
+                    "render": [Function],
+                  },
+                  "defaultProps": undefined,
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": undefined,
+              "propTypes": undefined,
+              "render": [Function],
+            },
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "propTypes": undefined,
+          "render": [Function],
+        },
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": true,
+          "rules": Array [
+            "
+  margin-top: 5%;
+",
+          ],
+        },
+        "defaultProps": undefined,
+        "displayName": "Styled(Component)",
+        "foldedComponentIds": Array [],
+        "propTypes": undefined,
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "propTypes": undefined,
+          "render": [Function],
+        },
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
