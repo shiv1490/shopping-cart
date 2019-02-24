@@ -5,6 +5,12 @@ import { Navbar, NavDropdown, Nav } from "react-bootstrap";
 import { removeProduct } from "../../store/actions/cartActions";
 import CartPopup from "../cartPopup/cartPopup";
 import { withRouter } from "react-router";
+import styled from "styled-components";
+
+const StyledNav = styled(Nav)`
+  padding-left: 30%;
+  font-weight: bold;
+`;
 
 export class Header extends Component {
   goToCart = () => {
@@ -29,13 +35,13 @@ export class Header extends Component {
           <img src={Logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+        <Navbar.Collapse id="basic-navbar-nav" justify-content-between>
+          <StyledNav className="mr-auto">
             <Nav.Link onClick={this.goToHomePage}>HOME</Nav.Link>
             <NavDropdown title="SHOP" />
             <NavDropdown title="JOURNAL" id="basic-nav-dropdown" />
             <NavDropdown title="MORE" />
-          </Nav>
+          </StyledNav>
           <Nav>
             <NavDropdown
               title={`MY CART ${cartCount !== 0 ? `(${cartCount})` : ""}`}

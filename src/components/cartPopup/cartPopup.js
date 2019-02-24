@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import styled from "styled-components";
 import { Row, Col, Card } from "react-bootstrap";
 import { getFormattedCurrency } from "../../utilities/utilities";
@@ -13,6 +13,12 @@ const StyledRow = styled(Row)`
 
 const StyledImage = styled(Card.Img)`
   height: 15vh;
+`;
+
+const StyledDiv = styled.div`
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 `;
 
 const StyledButton = styled.button`
@@ -47,7 +53,7 @@ const cartPopup = props => {
   if (props.cartDetails && props.cartDetails.length === 0) return null;
 
   return (
-    <Fragment>
+    <StyledDiv>
       {props.cartDetails &&
         props.cartDetails.map(product => (
           <StyledRow key={product.title}>
@@ -90,7 +96,7 @@ const cartPopup = props => {
           <StyledMainButton type="checkout">CHECKOUT</StyledMainButton>
         </Col>
       </Row>
-    </Fragment>
+    </StyledDiv>
   );
 };
 export default cartPopup;

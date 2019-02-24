@@ -1,5 +1,5 @@
 import React from "react";
-import { configure, shallow } from "enzyme";
+import { configure, shallow, mount } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
 import CartPopup from "./cartPopup";
 
@@ -20,5 +20,10 @@ describe("CartPopup component", () => {
     const component = shallow(<CartPopup cartDetails={cartDetails} />);
 
     expect(component).toMatchSnapshot();
+  });
+
+  it("mount without crashing", () => {
+    const component = mount(<CartPopup />);
+    component.unmount();
   });
 });

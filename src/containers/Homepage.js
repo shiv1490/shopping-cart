@@ -41,8 +41,7 @@ export class HomePage extends Component {
 
 const mapStateToProps = state => {
   return {
-    products: state.homePageData.products,
-    cartDetails: state.cartData.cart
+    products: state.homePageData.products
   };
 };
 

@@ -345,7 +345,7 @@ ShallowWrapper {
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "sc-ifAKCX",
+                        "componentId": "sc-EHOje",
                         "isStatic": true,
                         "rules": Array [
                           "
@@ -358,7 +358,7 @@ ShallowWrapper {
                       "foldedComponentIds": Array [],
                       "propTypes": undefined,
                       "render": [Function],
-                      "styledComponentId": "sc-ifAKCX",
+                      "styledComponentId": "sc-EHOje",
                       "target": Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "defaultProps": undefined,
@@ -389,7 +389,7 @@ ShallowWrapper {
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "sc-ifAKCX",
+                        "componentId": "sc-EHOje",
                         "isStatic": true,
                         "rules": Array [
                           "
@@ -402,7 +402,7 @@ ShallowWrapper {
                       "foldedComponentIds": Array [],
                       "propTypes": undefined,
                       "render": [Function],
-                      "styledComponentId": "sc-ifAKCX",
+                      "styledComponentId": "sc-EHOje",
                       "target": Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "defaultProps": undefined,
@@ -427,7 +427,7 @@ ShallowWrapper {
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "sc-ifAKCX",
+                        "componentId": "sc-EHOje",
                         "isStatic": true,
                         "rules": Array [
                           "
@@ -440,7 +440,7 @@ ShallowWrapper {
                       "foldedComponentIds": Array [],
                       "propTypes": undefined,
                       "render": [Function],
-                      "styledComponentId": "sc-ifAKCX",
+                      "styledComponentId": "sc-EHOje",
                       "target": Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "defaultProps": undefined,
@@ -465,7 +465,7 @@ ShallowWrapper {
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "sc-ifAKCX",
+                        "componentId": "sc-EHOje",
                         "isStatic": true,
                         "rules": Array [
                           "
@@ -478,7 +478,7 @@ ShallowWrapper {
                       "foldedComponentIds": Array [],
                       "propTypes": undefined,
                       "render": [Function],
-                      "styledComponentId": "sc-ifAKCX",
+                      "styledComponentId": "sc-EHOje",
                       "target": Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "defaultProps": undefined,
@@ -525,7 +525,7 @@ ShallowWrapper {
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "sc-htpNat",
+                      "componentId": "sc-bxivhb",
                       "isStatic": true,
                       "rules": Array [
                         "
@@ -543,7 +543,7 @@ ShallowWrapper {
                     "displayName": "styled.button",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "sc-htpNat",
+                    "styledComponentId": "sc-bxivhb",
                     "target": "button",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -715,7 +715,7 @@ ShallowWrapper {
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "sc-bxivhb",
+                  "componentId": "sc-ifAKCX",
                   "isStatic": false,
                   "rules": Array [
                     "
@@ -737,7 +737,7 @@ ShallowWrapper {
                 "displayName": "styled.button",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "sc-bxivhb",
+                "styledComponentId": "sc-ifAKCX",
                 "target": "button",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -778,7 +778,7 @@ ShallowWrapper {
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "sc-bxivhb",
+                  "componentId": "sc-ifAKCX",
                   "isStatic": false,
                   "rules": Array [
                     "
@@ -800,7 +800,7 @@ ShallowWrapper {
                 "displayName": "styled.button",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "sc-bxivhb",
+                "styledComponentId": "sc-ifAKCX",
                 "target": "button",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -823,7 +823,29 @@ ShallowWrapper {
         },
       },
     ],
-    "type": Symbol(react.fragment),
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-htpNat",
+        "isStatic": true,
+        "rules": Array [
+          "
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-htpNat",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -1146,7 +1168,7 @@ ShallowWrapper {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-ifAKCX",
+                          "componentId": "sc-EHOje",
                           "isStatic": true,
                           "rules": Array [
                             "
@@ -1159,7 +1181,7 @@ ShallowWrapper {
                         "foldedComponentIds": Array [],
                         "propTypes": undefined,
                         "render": [Function],
-                        "styledComponentId": "sc-ifAKCX",
+                        "styledComponentId": "sc-EHOje",
                         "target": Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "defaultProps": undefined,
@@ -1190,7 +1212,7 @@ ShallowWrapper {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-ifAKCX",
+                          "componentId": "sc-EHOje",
                           "isStatic": true,
                           "rules": Array [
                             "
@@ -1203,7 +1225,7 @@ ShallowWrapper {
                         "foldedComponentIds": Array [],
                         "propTypes": undefined,
                         "render": [Function],
-                        "styledComponentId": "sc-ifAKCX",
+                        "styledComponentId": "sc-EHOje",
                         "target": Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "defaultProps": undefined,
@@ -1228,7 +1250,7 @@ ShallowWrapper {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-ifAKCX",
+                          "componentId": "sc-EHOje",
                           "isStatic": true,
                           "rules": Array [
                             "
@@ -1241,7 +1263,7 @@ ShallowWrapper {
                         "foldedComponentIds": Array [],
                         "propTypes": undefined,
                         "render": [Function],
-                        "styledComponentId": "sc-ifAKCX",
+                        "styledComponentId": "sc-EHOje",
                         "target": Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "defaultProps": undefined,
@@ -1266,7 +1288,7 @@ ShallowWrapper {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-ifAKCX",
+                          "componentId": "sc-EHOje",
                           "isStatic": true,
                           "rules": Array [
                             "
@@ -1279,7 +1301,7 @@ ShallowWrapper {
                         "foldedComponentIds": Array [],
                         "propTypes": undefined,
                         "render": [Function],
-                        "styledComponentId": "sc-ifAKCX",
+                        "styledComponentId": "sc-EHOje",
                         "target": Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "defaultProps": undefined,
@@ -1326,7 +1348,7 @@ ShallowWrapper {
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "sc-htpNat",
+                        "componentId": "sc-bxivhb",
                         "isStatic": true,
                         "rules": Array [
                           "
@@ -1344,7 +1366,7 @@ ShallowWrapper {
                       "displayName": "styled.button",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "sc-htpNat",
+                      "styledComponentId": "sc-bxivhb",
                       "target": "button",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -1516,7 +1538,7 @@ ShallowWrapper {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-bxivhb",
+                    "componentId": "sc-ifAKCX",
                     "isStatic": false,
                     "rules": Array [
                       "
@@ -1538,7 +1560,7 @@ ShallowWrapper {
                   "displayName": "styled.button",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-bxivhb",
+                  "styledComponentId": "sc-ifAKCX",
                   "target": "button",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -1579,7 +1601,7 @@ ShallowWrapper {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-bxivhb",
+                    "componentId": "sc-ifAKCX",
                     "isStatic": false,
                     "rules": Array [
                       "
@@ -1601,7 +1623,7 @@ ShallowWrapper {
                   "displayName": "styled.button",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-bxivhb",
+                  "styledComponentId": "sc-ifAKCX",
                   "target": "button",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -1624,7 +1646,29 @@ ShallowWrapper {
           },
         },
       ],
-      "type": Symbol(react.fragment),
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-htpNat",
+          "isStatic": true,
+          "rules": Array [
+            "
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-htpNat",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {

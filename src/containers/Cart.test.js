@@ -1,13 +1,13 @@
 import React from "react";
-import { configure, shallow, mount } from "enzyme";
+import { configure, shallow } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
-import Product from "./product";
+import Cart from "./Cart";
 
 configure({ adapter: new Adapter() });
 
-describe("CartPopup component", () => {
+describe("Cart container", () => {
   it("should rener component", () => {
-    const products = [
+    const cartDetails = [
       {
         title: "Blue Stripe Stoneware Plate",
         brand: "Kiriko",
@@ -17,12 +17,12 @@ describe("CartPopup component", () => {
         image: "blue.jpg"
       }
     ];
-    const component = shallow(<Product products={products} />);
+
+    const cartTotal = 40;
+    const component = shallow(
+      <Cart cartTotal={cartTotal} cartDetails={cartDetails} />
+    );
 
     expect(component).toMatchSnapshot();
-  });
-  it("mount without crashing", () => {
-    const component = mount(<Product />);
-    component.unmount();
   });
 });

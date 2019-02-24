@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import { connect } from "react-redux";
 import styled from "styled-components";
 import { Container, Row, Col, Breadcrumb, Card } from "react-bootstrap";
@@ -63,7 +63,7 @@ export class ProductDetails extends Component {
     const { brand, title, price, description } = this.props.productDetails;
 
     return (
-      <Fragment>
+      <div>
         <Container>
           <Breadcrumb>
             <Breadcrumb.Item>Home</Breadcrumb.Item>
@@ -106,7 +106,7 @@ export class ProductDetails extends Component {
             </Col>
           </Row>
         </Container>
-      </Fragment>
+      </div>
     );
   }
 }

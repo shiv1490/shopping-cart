@@ -4,7 +4,7 @@ import Adapter from "enzyme-adapter-react-16";
 import App from "./App";
 configure({ adapter: new Adapter() });
 
-it("renders without crashing", () => {
-  const component = shallow(<App />).dive();
+it("should render properly", () => {
+  const component = shallow(<App />, { context: {} }).dive();
   expect(component).toMatchSnapshot();
 });

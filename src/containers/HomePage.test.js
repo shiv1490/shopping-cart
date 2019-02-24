@@ -1,11 +1,11 @@
 import React from "react";
-import { configure, shallow, mount } from "enzyme";
+import { configure, shallow } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";
-import Product from "./product";
+import Homepage from "./Homepage";
 
 configure({ adapter: new Adapter() });
 
-describe("CartPopup component", () => {
+describe("HomePage Container", () => {
   it("should rener component", () => {
     const products = [
       {
@@ -17,12 +17,9 @@ describe("CartPopup component", () => {
         image: "blue.jpg"
       }
     ];
-    const component = shallow(<Product products={products} />);
+
+    const component = shallow(<Homepage products={products} />);
 
     expect(component).toMatchSnapshot();
-  });
-  it("mount without crashing", () => {
-    const component = mount(<Product />);
-    component.unmount();
   });
 });
