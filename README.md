@@ -1,18 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
-
-### `npm install` and then
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+This simple shopping cart application built with react-redux shows a simple flow of selecting a product , update cart untill checkout.
 
 ## Current Features
 
@@ -27,6 +17,22 @@ You will also see any lint errors in the console.
 - User can see cart popuop by click on MY CART ,see products in cart and can remove them
 - User can go to Homepage anytime by click on Home Button on Navbar and to Cart by clicking on View Cart button in cart popup
 
-## Pending Items
+## Bootstrap Application
 
-- Test cases
+#### Requirements
+
+- Node.js
+- NPM
+
+```javascript
+
+/* First, Install the needed packages */
+npm install
+
+/* Then start both Node and React */
+npm start
+
+/* To run the tests */
+npm run test (basic smog test for all components and js)
+
+```

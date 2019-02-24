@@ -35,7 +35,7 @@ export class Header extends Component {
           <img src={Logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" justify-content-between>
+        <Navbar.Collapse id="basic-navbar-nav" justify-content-between="true">
           <StyledNav className="mr-auto">
             <Nav.Link onClick={this.goToHomePage}>HOME</Nav.Link>
             <NavDropdown title="SHOP" />

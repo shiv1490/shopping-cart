@@ -57,6 +57,10 @@ export class ProductDetails extends Component {
     }
   };
 
+  goToHome = () => {
+    this.props.history.push("/");
+  };
+
   render() {
     const productImageData = imageMappings;
 
@@ -66,7 +70,9 @@ export class ProductDetails extends Component {
       <div>
         <Container>
           <Breadcrumb>
-            <Breadcrumb.Item>Home</Breadcrumb.Item>
+            <Breadcrumb.Item onClick={() => this.goToHome()}>
+              Home
+            </Breadcrumb.Item>
             <Breadcrumb.Item>PLATES</Breadcrumb.Item>
             <Breadcrumb.Item active>{title}</Breadcrumb.Item>
           </Breadcrumb>
